@@ -29,7 +29,6 @@
         $colorArr[0] = "red";
         $colorArr[1] = "green";
         $colorArr[2] = "blue";
-
         echo "<br/><br/>";
         var_dump($colorArr);
 
@@ -43,8 +42,8 @@
             array("name"=>"Jose Rizal2", "email"=>"jr2@email.com","phoneNum"=>"123456"),
             array("name"=>"Jose Rizal2", "email"=>"jr3@email.com","phoneNum"=>"1234567")
         ];
-
         echo "<br><br>";
+
         echo "Jose Rizal's email is: " . $contacts[0]["email"] . "<br/><br/>";
         var_dump($contacts);
         echo "<br/><br/>";
@@ -129,8 +128,6 @@
         };
 
         echo "The sum of 10 and 20 is: " . getSum(10,20);
-
     ?>
- 
 </body>
 </html>
